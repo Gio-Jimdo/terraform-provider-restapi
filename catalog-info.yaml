@@ -10,6 +10,11 @@ metadata:
   annotations:
     github.com/project-slug: Jimdo/terraform-provider-restapi
     backstage.io/techdocs-ref: "dir:."
+  tags:
+    - terraform
+    - provider
+    - restapi
+    - infra
 spec:
   type: library
   lifecycle: unknown
