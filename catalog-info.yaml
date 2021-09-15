@@ -18,5 +18,5 @@ metadata:
     - infra
 spec:
   type: library
-  lifecycle: experimental
+  lifecycle: production
   owner: devex
