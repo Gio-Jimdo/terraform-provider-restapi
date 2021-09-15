@@ -2,8 +2,15 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: terraform-provider-restapi
+  description: A Terraform provider for REST API calls as configuration objects
+  links:
+    - url: https://registry.terraform.io/providers/Jimdo/restapi
+      title: Terraform Registry Page
+      icon: ExitToApp
   annotations:
     github.com/project-slug: Jimdo/terraform-provider-restapi
+    backstage.io/techdocs-ref: "dir:."
 spec:
-  type: other
+  type: library
   lifecycle: unknown
+  owner: devex
