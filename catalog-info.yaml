@@ -9,6 +9,7 @@ metadata:
       icon: ExitToApp
   annotations:
     github.com/project-slug: Jimdo/terraform-provider-restapi
+    github.com/team-slug: Jimdo/devex
     backstage.io/techdocs-ref: "dir:."
   tags:
     - terraform
