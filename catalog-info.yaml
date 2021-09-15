@@ -17,6 +17,6 @@ metadata:
     - restapi
     - infra
 spec:
-  type: library
-  lifecycle: production
+  type: service
   owner: devex
+  lifecycle: staging
