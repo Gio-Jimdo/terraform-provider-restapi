@@ -1,0 +1,12 @@
+site_name: 'terraform-provider-restapi'
+site_description: "Main documentation for Jimdo's REST API Terraform Provider"
+
+plugins:
+  - techdocs-core
+
+nav:
+  - Overview:
+      - What is Hava?: "index.md"
+  - Usage:
+      - Data Sources: "data-sources/object.md"
+      - Resources: "resources/object.md"
