@@ -10,8 +10,8 @@ jobs:
         uses: hashicorp/ghaction-import-gpg@v2.1.0
         env:
           # These secrets will need to be configured for the repository:
-          GPG_PRIVATE_KEY: ${{ secrets.GPG_PRIVATE_KEY }}
-          PASSPHRASE: ${{ secrets.PASSPHRASE }}
+          GPG_PRIVATE_KEY: ${{ secrets.TERRAFORM_GPG_PRIVATE_KEY }}
+          PASSPHRASE: ${{ secrets.TERRAFORM_GPG_PASSPHRASE }}
       -
         name: Get default key info
         run: |
